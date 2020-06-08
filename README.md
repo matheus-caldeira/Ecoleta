@@ -23,8 +23,8 @@ Conhecimento sobre Migrations e Seeds, utilizando Knex.
 ```
 => Baixar o projeto.
 => Instalar as dependencias utilizando o 'npm install' dentro de cada subpasta.
-=> Rodar as Migraitons com o 'knex' dentro da pasta 'server'.
-=> Rodar as Seeds com o 'knex' dentro da pasta 'server'.
+=> Rodar as Migraitons com o comando 'npm run knex:migrate' dentro da pasta 'server'.
+=> Rodar as Seeds com o comando 'npm run knex:seeds' dentro da pasta 'server'.
 ```
 
 Iniciando o server.
@@ -56,11 +56,12 @@ Algumas tecnologias importantes usadas no projeto:
   * typescript - tipagem dentro do JS.
   * lottie-react-web - animaçōes dentro da web.
   * react-router-dom - Roteamento dentro do projeto.
-  * leaftlet - Pegar valores de latitude e longitude.
+  * leaftlet - Interação com mapa.
   * axios - Requests para a Api(server)
   
   * React Navigation - Navegação dentro do mobile.
-  * React-native-community/picker - Componente de 'select' dentro do mobile.
+  * reacti-leaftlet - Interação como mapa para mobile
+  * react-native-picker-select - Componente de 'select' dentro do mobile.
   * @expo-google-fonts - Fontes da aplicação.
   
   * Entre outras várias.
