@@ -25,6 +25,11 @@ Conhecimento sobre Migrations e Seeds, utilizando Knex.
 => Instalar as dependencias utilizando o 'npm install' dentro de cada subpasta.
 => Rodar as Migraitons com o comando 'npm run knex:migrate' dentro da pasta 'server'.
 => Rodar as Seeds com o comando 'npm run knex:seeds' dentro da pasta 'server'.
+=> Trocar o IP(192.168.0.99) para o seu IP atual nos arquivos:
+=>   -web/src/services/api.ts
+=>   -server/src/controllers/ItemController.ts
+=>   -server/src/controllers/PointsController.ts
+=>   -mobile/src/services/api.ts
 ```
 
 Iniciando o server.
